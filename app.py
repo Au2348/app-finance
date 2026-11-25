@@ -1,6 +1,10 @@
 import pandas as pd
 import streamlit as st
 
+"""Le calculateur d’intérêts composés.La boucle simule un mois à la fois. Elle applique le rendement
+ au capital déjà accumulé, puis ajoute le versement de fin de mois. Cette lignepermet d’expliquer pourquoi
+les intérêts déjà gagnés peuvent eux-mêmes produire des intérêts.""" 
+
 st.title("Calculateur d’intérêts composés")
 st.caption("Simulation éducative avec un rendement constant et non garanti.")
 
